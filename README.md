@@ -50,11 +50,6 @@ addToCart(name): Adds a product to the cart.
 removeFromCart(index): Removes a product from the cart.
 editProduct(name): Redirects to the edit page with product details.
 deleteProduct(name): Deletes a product from the list.
-CSS Styles
-
-add-item.css: Styles for the form on the add-item page.
-grocery.css: Styles for the product display and cart on the grocery page.
-Use the category filter to view products by category.
 
 6.  Troubleshooting:
 
