@@ -1,4 +1,4 @@
-/* General Body Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header Styling */
+
 header {
     background-color: #4AAFD5;
     color: white;
@@ -58,14 +58,14 @@ header select option {
     color: white;
 }
 
-/* Main Section Layout */
+
 main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
 }
 
-/* Product List Section */
+
 #productList {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@ main {
     flex: 1;
 }
 
-/* Product Card Styling */
+
 .product-card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -101,12 +101,12 @@ main {
     border-radius: 5px;
 }
 
-/* Ensures all product details and buttons fit inside the box */
+
 .product-card h3, .product-card p, .product-card .quantity-controls, .buttons-container {
     margin: 10px 0;
 }
 
-/* Product Details Styling */
+
 .product-card h3 {
     font-size: 1.2em;
     margin: 10px 0;
@@ -120,7 +120,7 @@ main {
     text-align: center;
 }
 
-/* Quantity Controls */
+
 .product-card .quantity-controls {
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@ main {
     padding: 5px;
 }
 
-/* Buttons Container */
+
 .product-card .buttons-container {
     display: flex;
     justify-content: space-between;
@@ -159,7 +159,7 @@ main {
     width: 100%;
 }
 
-/* Ensures all buttons have consistent size */
+
 .product-card button {
     flex: 1;
     padding: 10px;
@@ -168,7 +168,7 @@ main {
     cursor: pointer;
 }
 
-/* Button Colors */
+
 .product-card .add-to-cart-btn {
     background-color: #4AAFD5;
     color: white;
@@ -184,7 +184,7 @@ main {
     color: white;
 }
 
-/* Cart Section Styling */
+
 #cart {
     border-left: 1px solid #ddd;
     padding: 20px;
@@ -202,7 +202,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* Cart Item Styling */
+
 .cart-item {
     display: flex;
     justify-content: space-between;
@@ -215,7 +215,6 @@ main {
     flex: 1;
 }
 
-/* Remove from Cart Button */
 .cart-item button {
     background-color: red;
     color: white;
@@ -229,7 +228,7 @@ main {
     background-color: darkred;
 }
 
-/* Checkout Button */
+
 #checkoutButton {
     background-color: #4AAFD5;
     color: white;
@@ -244,7 +243,7 @@ main {
     background-color: #3897d7;
 }
 
-/* Add Item Redirect Button */
+
 #addItemRedirectButton {
     background-color: #4AAFD5;
     color: white;
