@@ -1,7 +1,7 @@
 Grocery List App Documentation
 1. Introduction
 
-The Grocery List App is a versatile tool designed to help users efficiently manage their grocery shopping. With features such as user authentication, product management, and a dynamic shopping cart, this app streamlines the grocery shopping experience. Users can easily add, edit, and delete products, search and filter items by category, and keep track of their purchases through a responsive and visually appealing interface. Whether you're organizing your shopping list or checking out, the Grocery List App offers a seamless and user-friendly experience tailored to your needs.
+The Grocery List App is a versatile tool designed to help users efficiently manage their grocery shopping. With features such as user authentication, product management, and a dynamic shopping cart, this app streamlines the grocery shopping experience. Users can easily add, edit, and delete products, search and filter items by category, and keep track of their purchases through a responsive and visually appealing interface.
 
 2. Features:
 
@@ -20,17 +20,8 @@ Web Browser (Chrome, Firefox, etc.)
 Text Editor (VSCode, Sublime Text, etc.)
  Using Basic knowledge of HTML, CSS, and JavaScript
 
-4.  File Structure:
-index.html: Main HTML file
-add-item.html: Page for adding and editing items
-grocery.html: Page for viewing products and cart
-add-item.css: Styles for the add-item page
-grocery.css: Styles for the main grocery page
-add-item.js: JavaScript for adding and editing items
-grocery.js: JavaScript for managing products, cart, and checkout
 
-
-5. Usage
+4.  Usage
 Adding Products:
 
 Go to the "Add New Item" page.
@@ -50,7 +41,7 @@ Searching and Filtering:
 
 Use the search bar to find products by name.
 
-6. Code Explanation
+5. Code Explanation
    
   JavaScript Functions:
 
@@ -65,7 +56,7 @@ add-item.css: Styles for the form on the add-item page.
 grocery.css: Styles for the product display and cart on the grocery page.
 Use the category filter to view products by category.
 
-7.  Troubleshooting:
+6.  Troubleshooting:
 
 Common Issues:
 
