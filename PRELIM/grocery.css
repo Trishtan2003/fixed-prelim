@@ -1,0 +1,318 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #4AAFD5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    width: 100%;
+}
+
+.header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header input, header button, header select {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Button Styles */
+header button {
+    background-color: #E7A339;
+    color: white;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #d98c29;
+}
+
+/* Dropdown Select Styling */
+header select {
+    background-color: #91B187;
+    color: white;
+}
+
+header select option {
+    background-color: #91B187;
+    color: white;
+}
+
+/* Main Section Layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Product List Section */
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+/* Product Card Styling */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 220px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /* Dynamic height for responsiveness */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Ensures all product details and buttons fit inside the box */
+.product-card h3, .product-card p, .product-card .quantity-controls, .buttons-container {
+    margin: 10px 0;
+}
+
+/* Product Details Styling */
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+}
+
+/* Quantity Controls */
+.product-card .quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.quantity-controls button {
+    background-color: #E7A339;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quantity-controls button:hover {
+    background-color: #d98c29;
+}
+
+.product-card .quantity {
+    margin: 0 10px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* Buttons Container */
+.product-card .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: auto;
+    width: 100%;
+}
+
+/* Ensures all buttons have consistent size */
+.product-card button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Colors */
+.product-card .add-to-cart-btn {
+    background-color: #4AAFD5;
+    color: white;
+}
+
+.product-card .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product-card .delete-btn {
+    background-color: #E74C3C;
+    color: white;
+}
+
+/* Cart Section Styling */
+#cart {
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#cart h2 {
+    margin-top: 0;
+}
+
+#cartItems {
+    margin-bottom: 10px;
+}
+
+/* Cart Item Styling */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item span {
+    flex: 1;
+}
+
+/* Remove from Cart Button */
+.cart-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cart-item button:hover {
+    background-color: darkred;
+}
+
+/* Checkout Button */
+#checkoutButton {
+    background-color: #4AAFD5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#checkoutButton:hover {
+    background-color: #3897d7;
+}
+
+/* Add Item Redirect Button */
+#addItemRedirectButton {
+    background-color: #4AAFD5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#addItemRedirectButton:hover {
+    background-color: #3897d7;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .product-card {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product-card img {
+        max-height: 120px;
+    }
+
+    #cart {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #ddd;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-controls {
+        flex-direction: column;
+    }
+
+    header input, header button, header select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+
+    .product-card img {
+        max-height: 100px;
+    }
+
+    .product-card button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #cart {
+        width: 100%;
+    }
+}
+
+#cart .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
